@@ -17,6 +17,8 @@ class CollectionViewTableViewCell: UITableViewCell {
         //Intialisetion code heres instead of awake from nib.
         
         contentView.backgroundColor = .systemPink
+        
+        
     }
     
     required init?(coder: NSCoder) {

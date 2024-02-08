@@ -23,10 +23,24 @@ class HomeHeaderUIView: UIView {
     
     private func addGradient() {
         
+    
+        //creating gradient.
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [
+            UIColor.clear.cgColor,
+            UIColor.systemBackground.cgColor
+        ]
+        
+        gradientLayer.frame = bounds // setting layers frame to bonds of its parent view , so that gradient will aplly full.
+        
+        layer.addSublayer(gradientLayer) //as i said any view or layer added through add is placed on top on existing view or layer.
+        
     }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(heroImageView)
+        addGradient()
     }
     
     override func layoutSubviews() {
