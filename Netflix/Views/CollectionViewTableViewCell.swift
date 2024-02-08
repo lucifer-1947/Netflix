@@ -15,6 +15,7 @@ class CollectionViewTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         //Intialisetion code heres instead of awake from nib.
+        
         contentView.backgroundColor = .systemPink
     }
     
