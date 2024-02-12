@@ -14,8 +14,13 @@ class UpcomingViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         view.backgroundColor = .systemBackground
+        
+        navigationItem.title = "Netfkix"
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        print("Hello ")
+    }
 
     /*
     // MARK: - Navigation

@@ -9,6 +9,19 @@ import UIKit
 
 class HomeHeaderUIView: UIView {
     
+    let playButton : UIButton = {
+       
+        let button = UIButton()
+        button.setTitle("Play", for: .normal)
+        button.layer.borderColor = UIColor.white.cgColor
+        button.layer.borderWidth = 1
+        button.layer.cornerRadius = 5
+        button.translatesAutoresizingMaskIntoConstraints = false
+        
+        
+        return button
+    }()
+    
     //writing properties like this makes everything related to that property at one place.
     let heroImageView  : UIImageView = {
         
@@ -37,10 +50,24 @@ class HomeHeaderUIView: UIView {
         
     }
     
+    private func applyConstraints(){
+        
+        let playButtonConstriants = [playButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 25),playButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -20),playButton.widthAnchor.constraint(equalToConstant: 100)]
+        
+        NSLayoutConstraint.activate(playButtonConstriants)
+        
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
         addSubview(heroImageView)
         addGradient()
+        
+        addSubview(playButton)
+        applyConstraints()
+       
+        
     }
     
     override func layoutSubviews() {
@@ -51,6 +78,5 @@ class HomeHeaderUIView: UIView {
     required init?(coder: NSCoder) {
         fatalError()
     }
-    
     
 }

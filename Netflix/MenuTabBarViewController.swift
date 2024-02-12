@@ -21,10 +21,10 @@ class MenuTabBarViewController: UITabBarController {
 
     private func netflixNavigation(){
         
-        let tabHome = HomeViewController()
-        let tabUpcoming = UpcomingViewController()
-        let tabSearch = SearchViewController()
-        let tabDownloads = DownloadsViewController()
+        let tabHome = UINavigationController(rootViewController: HomeViewController())
+        let tabUpcoming = UINavigationController(rootViewController:  UpcomingViewController())
+        let tabSearch = UINavigationController(rootViewController:  SearchViewController())
+        let tabDownloads = UINavigationController(rootViewController: DownloadsViewController())
         
         tabHome.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.circle"), selectedImage: UIImage(systemName: "house.circle.fill"))
         

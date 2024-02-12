@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062304EC2B7647270014490C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062304EB2B7647270014490C /* Title.swift */; };
+		0635C3A62B7654D8008A1AD5 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0635C3A52B7654D8008A1AD5 /* ApiCaller.swift */; };
+		063788E62B79E6290031DE85 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063788E52B79E6290031DE85 /* Extensions.swift */; };
 		066EF3B12B73AF9D00F60B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EF3B02B73AF9D00F60B18 /* AppDelegate.swift */; };
 		066EF3B32B73AF9D00F60B18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EF3B22B73AF9D00F60B18 /* SceneDelegate.swift */; };
 		066EF3B52B73AF9D00F60B18 /* MenuTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EF3B42B73AF9D00F60B18 /* MenuTabBarViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062304EB2B7647270014490C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		0635C3A52B7654D8008A1AD5 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		063788E52B79E6290031DE85 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		066EF3AD2B73AF9D00F60B18 /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		066EF3B02B73AF9D00F60B18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		066EF3B22B73AF9D00F60B18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 		06889C6C2B7419EA00264664 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				062304EB2B7647270014490C /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 		06889C6F2B741A1F00264664 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				063788E52B79E6290031DE85 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 		06889C702B741A2800264664 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				0635C3A52B7654D8008A1AD5 /* ApiCaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -207,8 +216,11 @@
 				06889C492B73FB8600264664 /* SearchViewController.swift in Sources */,
 				066EF3B52B73AF9D00F60B18 /* MenuTabBarViewController.swift in Sources */,
 				06889C722B741A6500264664 /* CollectionViewTableViewCell.swift in Sources */,
+				0635C3A62B7654D8008A1AD5 /* ApiCaller.swift in Sources */,
 				06889C4B2B73FB9400264664 /* DownloadsViewController.swift in Sources */,
+				062304EC2B7647270014490C /* Title.swift in Sources */,
 				066EF3B12B73AF9D00F60B18 /* AppDelegate.swift in Sources */,
+				063788E62B79E6290031DE85 /* Extensions.swift in Sources */,
 				06889C742B7423F100264664 /* HomeHeaderUIView.swift in Sources */,
 				066EF3B32B73AF9D00F60B18 /* SceneDelegate.swift in Sources */,
 				06889C472B73FB7400264664 /* UpcomingViewController.swift in Sources */,

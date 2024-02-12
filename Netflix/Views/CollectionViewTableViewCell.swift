@@ -18,7 +18,6 @@ class CollectionViewTableViewCell: UITableViewCell {
         
         contentView.backgroundColor = .systemPink
         
-        
     }
     
     required init?(coder: NSCoder) {
